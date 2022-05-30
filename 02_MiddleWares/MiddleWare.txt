@@ -1,0 +1,10 @@
+What is MiddleWare?
+
+Middleware functions are functions that have access to the request object
+(req), The response object (res), and the next function in the application's 
+reques-response cycle.
+
+middleware(req, res, next)
+
+The next function is the a function in the Express router which, when invoked,
+executes the middleware succeeding the current Middleware
