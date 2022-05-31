@@ -1,1 +1,0 @@
-mongodb+srv://root:toor@cluster0.qz4sg1h.mongodb.net/mernstacklearn?retryWrites=true&w=majority
