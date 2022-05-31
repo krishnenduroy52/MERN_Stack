@@ -11,7 +11,7 @@ const express = require('express');
 const app = express();
 
 // Database
-const DB = 'mongodb+srv://root:toor@cluster0.qz4sg1h.mongodb.net/mernstacklearn?retryWrites=true&w=majority'
+const DB = 'mongodb+srv://<username>:<password>@cluster0.qz4sg1h.mongodb.net/<database_name>?retryWrites=true&w=majority'
 mongoose.connect(DB, {
     useNewUrlParser: true,
     useUnifiedTopology: true
